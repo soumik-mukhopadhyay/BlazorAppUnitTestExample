@@ -40,9 +40,10 @@ namespace BlazorApp1UnitTest
             // Act
             var button = component.Find("button");
             button.Click();
+            button.Click();
 
             // Assert: Count should be 4
-            component.MarkupMatches(@"<p>Current count: 2</p><button>Click me</button>");
+            component.MarkupMatches(@"<p>Current count: 4</p><button>Click me</button>");
         }
     }
 }
