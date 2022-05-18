@@ -1,4 +1,4 @@
-Step 1: Create a simple Blazor Server/WebAssembly application.
+Step 1: Create a Blazor Server/WebAssembly application.
 Step 2: In Visual Studio, right-click on the project solution and select the Add > New Project option.
 Step 3: Select NUnit Test Project (.NET Core) and click Next button.
 Step 4: Enter the <ProjectName> and then click Create button.
