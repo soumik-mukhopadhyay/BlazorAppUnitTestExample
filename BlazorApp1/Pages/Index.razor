@@ -6,4 +6,18 @@
 
 Welcome to your new app.
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<button class="btn btn-primary" @onclick="OnButtonClick">Ping Me</button>
+  
+ @if (IsVisible)
+ {
+     <h5>Blazor component is clicked.</h5>
+ }
+  
+ @code {
+  
+     public bool IsVisible { get; set; }
+     protected void OnButtonClick()
+     {
+         IsVisible = true;
+     }
+ } 
