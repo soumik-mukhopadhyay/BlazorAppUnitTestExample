@@ -9,6 +9,9 @@ namespace BlazorApp1UnitTest
         {
         }
 
+        /// <summary>
+        /// bUnit basics.
+        /// </summary>
         [Test]
         public void SimpleTestComponent()
         {
@@ -23,6 +26,9 @@ namespace BlazorApp1UnitTest
             renderComponent.Find("h5").MarkupMatches("<h5>Blazor component is clicked.</h5>");
         }
 
+        /// <summary>
+        /// Testing component parameters.
+        /// </summary>
         [Test]
         public void CounterComponentTest()
         {
